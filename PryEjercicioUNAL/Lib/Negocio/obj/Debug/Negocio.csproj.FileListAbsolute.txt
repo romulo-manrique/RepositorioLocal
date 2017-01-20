@@ -1,0 +1,28 @@
+C:\Users\infrm\Documents\Visual Studio 2015\Projects\WPBitacoras\Negocio\bin\Debug\Negocio.dll
+C:\Users\infrm\Documents\Visual Studio 2015\Projects\WPBitacoras\Negocio\bin\Debug\Negocio.pdb
+C:\Users\infrm\Documents\Visual Studio 2015\Projects\WPBitacoras\Negocio\bin\Debug\Datos.dll
+C:\Users\infrm\Documents\Visual Studio 2015\Projects\WPBitacoras\Negocio\bin\Debug\Datos.pdb
+C:\Users\infrm\Documents\Visual Studio 2015\Projects\WPBitacoras\Negocio\obj\Debug\Negocio.csprojResolveAssemblyReference.cache
+C:\Users\infrm\Documents\Visual Studio 2015\Projects\WPBitacoras\Negocio\obj\Debug\Negocio.dll
+C:\Users\infrm\Documents\Visual Studio 2015\Projects\WPBitacoras\Negocio\obj\Debug\Negocio.pdb
+C:\Users\infrm\Desktop\jQuery_AJAX_Database\Lib\Negocio\bin\Debug\Negocio.dll
+C:\Users\infrm\Desktop\jQuery_AJAX_Database\Lib\Negocio\bin\Debug\Negocio.pdb
+C:\Users\infrm\Desktop\jQuery_AJAX_Database\Lib\Negocio\bin\Debug\Datos.dll
+C:\Users\infrm\Desktop\jQuery_AJAX_Database\Lib\Negocio\bin\Debug\Datos.pdb
+C:\Users\infrm\Desktop\jQuery_AJAX_Database\Lib\Negocio\obj\Debug\Negocio.csprojResolveAssemblyReference.cache
+C:\Users\infrm\Desktop\jQuery_AJAX_Database\Lib\Negocio\obj\Debug\Negocio.dll
+C:\Users\infrm\Desktop\jQuery_AJAX_Database\Lib\Negocio\obj\Debug\Negocio.pdb
+C:\Users\infrm\Desktop\PryBitacora\Lib\Negocio\bin\Debug\Negocio.dll
+C:\Users\infrm\Desktop\PryBitacora\Lib\Negocio\bin\Debug\Negocio.pdb
+C:\Users\infrm\Desktop\PryBitacora\Lib\Negocio\bin\Debug\Datos.dll
+C:\Users\infrm\Desktop\PryBitacora\Lib\Negocio\bin\Debug\Datos.pdb
+C:\Users\infrm\Desktop\PryBitacora\Lib\Negocio\obj\Debug\Negocio.csprojResolveAssemblyReference.cache
+C:\Users\infrm\Desktop\PryBitacora\Lib\Negocio\obj\Debug\Negocio.dll
+C:\Users\infrm\Desktop\PryBitacora\Lib\Negocio\obj\Debug\Negocio.pdb
+C:\Users\infrm\Desktop\PryEjercicioUNAL\Lib\Negocio\bin\Debug\Negocio.dll
+C:\Users\infrm\Desktop\PryEjercicioUNAL\Lib\Negocio\bin\Debug\Negocio.pdb
+C:\Users\infrm\Desktop\PryEjercicioUNAL\Lib\Negocio\bin\Debug\Datos.dll
+C:\Users\infrm\Desktop\PryEjercicioUNAL\Lib\Negocio\bin\Debug\Datos.pdb
+C:\Users\infrm\Desktop\PryEjercicioUNAL\Lib\Negocio\obj\Debug\Negocio.csprojResolveAssemblyReference.cache
+C:\Users\infrm\Desktop\PryEjercicioUNAL\Lib\Negocio\obj\Debug\Negocio.dll
+C:\Users\infrm\Desktop\PryEjercicioUNAL\Lib\Negocio\obj\Debug\Negocio.pdb

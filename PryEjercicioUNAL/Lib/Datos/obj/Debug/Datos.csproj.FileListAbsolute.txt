@@ -1,0 +1,18 @@
+C:\Users\infrm\Documents\Visual Studio 2015\Projects\WPBitacoras\Datos\bin\Debug\Datos.dll
+C:\Users\infrm\Documents\Visual Studio 2015\Projects\WPBitacoras\Datos\bin\Debug\Datos.pdb
+C:\Users\infrm\Documents\Visual Studio 2015\Projects\WPBitacoras\Datos\obj\Debug\Datos.dll
+C:\Users\infrm\Documents\Visual Studio 2015\Projects\WPBitacoras\Datos\obj\Debug\Datos.pdb
+C:\Users\infrm\Documents\Visual Studio 2015\Projects\WPBitacoras\Datos\obj\Debug\Datos.csprojResolveAssemblyReference.cache
+C:\Users\infrm\Desktop\jQuery_AJAX_Database\Lib\Datos\bin\Debug\Datos.dll
+C:\Users\infrm\Desktop\jQuery_AJAX_Database\Lib\Datos\bin\Debug\Datos.pdb
+C:\Users\infrm\Desktop\jQuery_AJAX_Database\Lib\Datos\obj\Debug\Datos.dll
+C:\Users\infrm\Desktop\jQuery_AJAX_Database\Lib\Datos\obj\Debug\Datos.pdb
+C:\Users\infrm\Desktop\PryBitacora\Lib\Datos\bin\Debug\Datos.dll
+C:\Users\infrm\Desktop\PryBitacora\Lib\Datos\bin\Debug\Datos.pdb
+C:\Users\infrm\Desktop\PryBitacora\Lib\Datos\obj\Debug\Datos.dll
+C:\Users\infrm\Desktop\PryBitacora\Lib\Datos\obj\Debug\Datos.pdb
+C:\Users\infrm\Desktop\PryBitacora\Lib\Datos\obj\Debug\Datos.csprojResolveAssemblyReference.cache
+C:\Users\infrm\Desktop\PryEjercicioUNAL\Lib\Datos\bin\Debug\Datos.dll
+C:\Users\infrm\Desktop\PryEjercicioUNAL\Lib\Datos\bin\Debug\Datos.pdb
+C:\Users\infrm\Desktop\PryEjercicioUNAL\Lib\Datos\obj\Debug\Datos.dll
+C:\Users\infrm\Desktop\PryEjercicioUNAL\Lib\Datos\obj\Debug\Datos.pdb

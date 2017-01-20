@@ -1,0 +1,159 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="~/MasterPages/HomeMaster.Master" %>
+
+<!DOCTYPE html>
+<script runat="server">
+
+    protected void btnCerrar_Click(object sender, EventArgs e)
+    {
+        Session["gsUsuario"] = string.Empty;
+        Session["_usuario"] =string.Empty;
+        Session["_cedula"] = string.Empty;
+        Session["_codEmpleado"] = 0;
+        Session["_respuesta"] =string.Empty;
+        Session["_correo"] = string.Empty;
+        Session["_estatus"] =false;
+        Session["_registro"] = string.Empty;
+        Session["_ultimoAcceso"] =string.Empty;
+        Session["_nombreUsuario"] = string.Empty;
+        Response.Redirect("WFrmAcceso.aspx", true);
+    }
+
+</script>
+
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="" />
+    <meta name="author" content="" />
+    <title>Bítacora de Incidentes Críticos</title>
+    <!-- Bootstrap core CSS -->
+    <link href="../Content/css/bootstrap.css" rel="stylesheet" />
+    <!-- Add custom CSS here -->
+    <link href="../Content/css/sb-admin.css" rel="stylesheet" />
+    <link href="../Content/font-awesome/css/font-awesome.min.css" rel="stylesheet" />
+    <link href="../Content/css/jquery.dataTables.min.css" rel="stylesheet" />
+    <!-- Page Specific CSS 
+    <link href="../Content/css/morris-0.4.3.min.css" rel="stylesheet" -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"/>
+    <%--<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>--%>
+    <%--<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>--%>
+
+</head>
+<body>
+   <form runat="server">
+    <div id="wrapper">
+        <!-- Sidebar -->
+        <nav class="navbar navbar-fixed-top navbar-light bg-faded" role="navigation">
+           
+            <!-- Brand and toggle get grouped for better mobile display -->
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-ex1-collapse">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>          
+                
+                <%--<img  src="../Images/LOCKEY-2.png" />--%>              
+            </div>
+                <div class="navbar-collapse collapse">
+                    <ul class="nav navbar-nav">
+                        <li class="dropdown">
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown">Ejercicio<b class="caret"></b></a>
+                        <ul class="dropdown-menu">
+                            <li class="dropdown messages-dropdown"> <a href="../View/WFCalculaMayor.aspx">Calcula Mayor</a> </li>
+                           
+                        </ul>
+                    </li>  
+                    
+                   <%-- <li class="dropdown">
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown">Configuración<b class="caret"></b></a>
+                        <ul class="dropdown-menu">--%>
+                            <%--<li class="dropdown messages-dropdown"> <a href="../View/WFRelSupervisorEmpleado.aspx">Relación Supervisor - Usuario</a> </li>--%>
+                         <%--   <li class="dropdown messages-dropdown"> <a href="#">Competencias</a> </li>
+                            <li class="dropdown messages-dropdown"> <a href="#">Gerencias</a> </li>--%>
+                <%--        </ul>
+                    </li>                    
+                   --%>
+                    </ul>
+                    <%--<ul class="nav navbar-nav navbar-right">
+                                <li><a runat="server" href="~/View/WFCambioClave.aspx" title="Manage your account">Bienvenido, <%:  Session["_nombreUsuario"]   %> !</a></li>
+                                <li> <asp:LinkButton ID="btnCerrar" runat="server" OnClick="btnCerrar_Click"> Cerrar </asp:LinkButton> </li>                               
+
+                                <li>
+                                    <asp:LoginStatus runat="server" LogoutAction="Redirect" LogoutText="Cerrar sesión" LogoutPageUrl="~/" OnLoggingOut="Unnamed_LoggingOut" />
+                                </li>
+                    </ul>--%>
+
+                  <%--  <asp:LoginView runat="server" ViewStateMode="Disabled">
+                        <AnonymousTemplate>
+                            <ul class="nav navbar-nav navbar-right">
+                                <li><a runat="server" href="WFRegistarUsuario.aspx" id="mnuRegistrarUsuario">Registrarse</a></li>
+                                <li><a runat="server" href="WFLogin.aspx" id="mnuLogin">Iniciar sesión</a></li>
+                            </ul>
+                        </AnonymousTemplate>
+                        <LoggedInTemplate>
+                            <ul class="nav navbar-nav navbar-right">
+                                <li><a runat="server" href="~/Account/Manage" title="Manage your account">Hello, <%: Context.User.Identity.GetUserName()  %> !</a></li>
+                                <li>
+                                    <asp:LoginStatus runat="server" LogoutAction="Redirect" LogoutText="Cerrar sesión" LogoutPageUrl="~/" OnLoggingOut="Unnamed_LoggingOut" />
+                                </li>
+                            </ul>
+                        </LoggedInTemplate>
+                    </asp:LoginView>--%>
+                </div>
+
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            <%--<div class="collapse navbar-collapse navbar-ex1-collapse">
+                <ul class="nav navbar-nav navbar-right navbar-user">
+                    <li class="dropdown messages-dropdown">
+                        <a href="../View/Default.aspx">HOME</a>
+                    </li>
+                    <li class="dropdown alerts-dropdown">
+                        <a href="#">ABOUT US</a>
+                    </li>
+                     <li class="dropdown user-dropdown">
+                        <a href="#">BLOGS</a>
+                    </li>
+                    <li class="dropdown user-dropdown">
+                        <a href="../View/Index.aspx">CUSTOMERS</a>
+                    </li>
+                    <li class="dropdown user-dropdown">
+                        <a href="#">CONTACT US</a>
+                    </li>
+                </ul>
+            </div>--%>
+            <!-- /.navbar-collapse -->
+        </nav>
+
+        <div id="page-wrapper">
+           
+            <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">             
+
+
+            </asp:ContentPlaceHolder>
+       
+        </div>
+        <!-- /#page-wrapper -->
+
+    </div>
+    <!-- /#wrapper -->
+
+    <!-- JavaScript -->
+    <script src="../Content/js/jquery-1.10.2.js"></script>
+    <script src="../Content/js/bootstrap.js"></script>
+    <script src="../Content/js/jquery.dataTables.js"></script>
+    <script src="../Content/datetimepicker/bootstrap-datepicker.js"></script>
+    <!-- Page Specific Plugins -->
+    <script src="../Content/js/tablesorter/jquery.tablesorter.js"></script>
+    <script src="../Content/js/tablesorter/tables.js"></script>
+    <script>
+        $(window).load(function () {
+            $(".datepicker").datepicker();
+        });
+    </script>
+        </form>
+</body>
+</html>

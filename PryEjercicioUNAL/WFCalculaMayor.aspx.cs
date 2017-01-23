@@ -66,8 +66,7 @@ public partial class View_WFCalculaMayor : System.Web.UI.Page
         for (int i = 0; i < lista.Count; i++)
         {
             svalorActual = string.Empty;
-            for (int j = 0; j < lista[i].Length; j++){ 
-                //Console.Write(lista[i][j]);
+            for (int j = 0; j < lista[i].Length; j++){               
                 svalorActual = svalorActual.ToString() + lista[i][j].ToString();
             }
 

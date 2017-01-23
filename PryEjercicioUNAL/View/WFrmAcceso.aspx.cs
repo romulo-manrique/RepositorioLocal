@@ -1,5 +1,5 @@
 ﻿using System;
-using Negocio;
+//using Negocio;
 using System.Collections.Generic;
 using System.Linq;
 using System.Web;
@@ -16,11 +16,11 @@ public partial class View_WFrmAcceso : System.Web.UI.Page
 
     protected void btnAceptar_Click(object sender, EventArgs e)
     {
-        NUsuarios Usuario = new NUsuarios();
+        //NUsuarios Usuario = new NUsuarios();
 
         DataTable dt = new DataTable();
 
-        dt = NUsuarios.ValidaUsuario(txtLogin.Text.ToString(), txtPassword.Text.ToString());       
+        //dt = NUsuarios.ValidaUsuario(txtLogin.Text.ToString(), txtPassword.Text.ToString());       
 
         for (int i = 0; i < dt.Rows.Count; i++)
         {

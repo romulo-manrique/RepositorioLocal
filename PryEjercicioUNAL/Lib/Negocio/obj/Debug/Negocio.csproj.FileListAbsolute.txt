@@ -26,3 +26,10 @@ C:\Users\infrm\Desktop\PryEjercicioUNAL\Lib\Negocio\bin\Debug\Datos.pdb
 C:\Users\infrm\Desktop\PryEjercicioUNAL\Lib\Negocio\obj\Debug\Negocio.csprojResolveAssemblyReference.cache
 C:\Users\infrm\Desktop\PryEjercicioUNAL\Lib\Negocio\obj\Debug\Negocio.dll
 C:\Users\infrm\Desktop\PryEjercicioUNAL\Lib\Negocio\obj\Debug\Negocio.pdb
+C:\Users\infrm\Documents\GitHub\RepositorioLocal\PryEjercicioUNAL\Lib\Negocio\bin\Debug\Negocio.dll
+C:\Users\infrm\Documents\GitHub\RepositorioLocal\PryEjercicioUNAL\Lib\Negocio\bin\Debug\Negocio.pdb
+C:\Users\infrm\Documents\GitHub\RepositorioLocal\PryEjercicioUNAL\Lib\Negocio\bin\Debug\Datos.dll
+C:\Users\infrm\Documents\GitHub\RepositorioLocal\PryEjercicioUNAL\Lib\Negocio\bin\Debug\Datos.pdb
+C:\Users\infrm\Documents\GitHub\RepositorioLocal\PryEjercicioUNAL\Lib\Negocio\obj\Debug\Negocio.csprojResolveAssemblyReference.cache
+C:\Users\infrm\Documents\GitHub\RepositorioLocal\PryEjercicioUNAL\Lib\Negocio\obj\Debug\Negocio.dll
+C:\Users\infrm\Documents\GitHub\RepositorioLocal\PryEjercicioUNAL\Lib\Negocio\obj\Debug\Negocio.pdb

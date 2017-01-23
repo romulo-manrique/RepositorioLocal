@@ -4,8 +4,8 @@ using System.Data;
 using System.Linq;
 using System.Web.Services;
 using Newtonsoft.Json;
-using Negocio;
-using Datos;
+//using Negocio;
+//using Datos;
 using System.Web.UI;
 
 public partial class View_WFCambioClave : System.Web.UI.Page
@@ -33,7 +33,7 @@ public partial class View_WFCambioClave : System.Web.UI.Page
     {
         string Resp= string.Empty;
         DataTable DT = new DataTable();
-        DT = NUsuarios.ValidaUsuario(Usuario, Password);
+        //DT = NUsuarios.ValidaUsuario(Usuario, Password);
 
         for (int i = 0; i < DT.Rows.Count; i++)
         {
@@ -68,16 +68,16 @@ public partial class View_WFCambioClave : System.Web.UI.Page
             }
 
 
-            if (CambiaClave(Session["gsUsuario"].ToString(), Password.Text.ToString()).ToString().Equals("OK"))
-            {
-                ScriptManager.RegisterStartupScript(this.Page, Page.GetType(), "text", "mensaje('Registro de clave Exitoso, se le ha enviado un mensaje a su correo coorporativo con la confirmación del cambio, por favor verifique su bandeja de entrada !!!')", true);
-                return;
-            }
-            else
-            {
-                ScriptManager.RegisterStartupScript(this.Page, Page.GetType(), "text", "mensaje('Error en la acción de actualizar Clave, comuniquese con su administrador del sistema !!! ')", true);
-                return;
-            }
+            //if (CambiaClave(Session["gsUsuario"].ToString(), Password.Text.ToString()).ToString().Equals("OK"))
+            //{
+            //    ScriptManager.RegisterStartupScript(this.Page, Page.GetType(), "text", "mensaje('Registro de clave Exitoso, se le ha enviado un mensaje a su correo coorporativo con la confirmación del cambio, por favor verifique su bandeja de entrada !!!')", true);
+            //    return;
+            //}
+            //else
+            //{
+            //    ScriptManager.RegisterStartupScript(this.Page, Page.GetType(), "text", "mensaje('Error en la acción de actualizar Clave, comuniquese con su administrador del sistema !!! ')", true);
+            //    return;
+            //}
 
         }
         else
@@ -86,10 +86,10 @@ public partial class View_WFCambioClave : System.Web.UI.Page
         }
     }
 
-    protected string CambiaClave(string usuario, string clave)
-    {
-        return NUsuarios.CambioClave(usuario, clave);        
-    }
+    //protected string CambiaClave(string usuario, string clave)
+    //{
+    //    //return NUsuarios.CambioClave(usuario, clave);        
+    //}
 
    
 }

@@ -7,7 +7,7 @@
                      total = total + eval($(this).val());                   
                  }             );   
          }         function nueva_linea() {
-             $("#lineas").append('<div class="col-md-11"> <input type="number" class="form-control valor" value="0" min="1" max ="99999"/> <br/> </div> ');
+             $("#lineas").append('<div class="col-md-11"> <input type="number" class="form-control valor" value="0" min="1" max ="99999" onkeypress="checkKey(event)"/> <br/> </div> ');
          }                </script>
 
     <div class="form-horizontal">
@@ -34,7 +34,7 @@
            <div class="container">
         <div class="row">
             <div class="table-responsive">
-                <div id="lineas">                    <div class="col-md-11"> 		            <input type="number" class="form-control valor" value="0" min="1" max ="99999"/><br/>	            </div>                    </div>                <div class="col-md-11">	                <label for="total">Total: <input type="text" id="total" value="0" class="form-control"  readonly="readonly"/> </label> <br/>	            </div>                <div class="col-md-11">                    <input type="button" class="btn btn-primary" value="Nueva l&iacute;nea" onclick="nueva_linea()"/>	                <input type="button" class="btn btn-primary" value="Calcular" onclick="calcular()" id="btnGuardar"/>                </div>             </div>          </div>        </div>    </div>    </div>    </div>
+                <div id="lineas">                    <div class="col-md-11"> 		            <input type="number" class="form-control valor" value="0" min="1" max ="99999" onkeypress="checkKey(event)" /><br/>	            </div>                    </div>                <div class="col-md-11">	                <label for="total">Total: <input type="text" id="total" value="0" class="form-control"  readonly="readonly" /> </label> <br/>	            </div>                <div class="col-md-11">                    <input type="button" class="btn btn-primary" value="Nueva l&iacute;nea" onclick="nueva_linea()"/>	                <input type="button" class="btn btn-primary" value="Calcular" onclick="calcular()" id="btnGuardar"/>                </div>             </div>          </div>        </div>    </div>    </div>    </div>
     </div>
 </div>
 
@@ -48,7 +48,24 @@
 
 <script src="../Content/js/jquery-1.3.2.min.js"></script>
 <script type="text/javascript" src="http://cdn.jsdelivr.net/json2/0.1/json2.js"></script>
-<script type="text/javascript">   
+<script type="text/javascript">  
+    function checkKey(key)
+    {
+        
+        var unicode
+        if (key.charCode)
+            {unicode=key.charCode;}
+        else
+            {unicode=key.keyCode;}
+        //alert(unicode); // Para saber que codigo de tecla presiono , descomentar
+        //alert(window.event.keyCode);
+    
+        if (unicode == 13){          
+            nueva_linea();
+                        
+        }
+    }
+
     $('#btnGuardar').click(function () {
         i = 0        var valores = new Array()        $(".valor").each(            function (index, value) {
                 total = total + eval($(this).val());

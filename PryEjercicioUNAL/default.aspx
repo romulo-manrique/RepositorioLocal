@@ -5,7 +5,7 @@
          function calcular() {
              total = 0             i = 0                         $(".valor").each(                 function (index, value) {
                      total = total + eval($(this).val());                   
-                 }             );   
+                 }             );    
          }         function nueva_linea() {
              $("#lineas").append('<div class="col-md-11"> <input type="number" class="form-control valor" value="0" min="1" max ="99999" onkeypress="checkKey(event)"/> <br/> </div> ');
          }                </script>

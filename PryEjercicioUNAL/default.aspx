@@ -1,4 +1,4 @@
-﻿<%@ Page Title="" Language="C#" MasterPageFile="~/MasterPages/HomeMaster.Master" AutoEventWireup="true" CodeFile="WFCalculaMayor.aspx.cs" Inherits="View_WFCalculaMayor" %>
+﻿<%@ Page Title="" Language="C#" MasterPageFile="~/MasterPages/HomeMaster.Master" AutoEventWireup="true" CodeFile="default.aspx.cs" Inherits="View_WFCalculaMayor" %>
 
 <asp:Content ID="Content1" ContentPlaceHolderID="ContentPlaceHolder1" Runat="Server">
       <script type="text/javascript"> 
@@ -83,7 +83,7 @@
         if (permite) {
             $.ajax({
                 type: "POST",
-                url: "WFCalculaMayor.aspx/CalculaValor",
+                url: "default.aspx/CalculaValor",
                 contentType: "application/json; charset=utf-8",
                 data: JSON.stringify({
                     valores: valores
